@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+FormKraft is a full-stack SaaS application that empowers users to generate dynamic, intelligent forms using OpenAI’s language models. From job applications to feedback surveys, FormKraft helps you create, share, and manage forms effortlessly — all within a scalable, production-ready platform.
 
-## Getting Started
+🚀 Tech Stack
 
-First, run the development server:
+Frontend: Next.js 15, React, TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Authentication: Clerk
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Database & ORM: PostgreSQL, Prisma
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+AI Integration: OpenAI API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Payments: Razorpay
 
-## Learn More
+Deployment & Containerization: Docker, Docker Hub
 
-To learn more about Next.js, take a look at the following resources:
+Hosting: Ready for deployment on platforms like AWS EC2, Railway, or Render
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔐 User authentication with Clerk (Sign up, Sign in, Secure sessions)
 
-## Deploy on Vercel
+🧠 AI-powered dynamic form generation using OpenAI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📊 Database-driven form storage and response management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💳 Integrated payments with Razorpay for monetizing form creation
+
+🧩 Fully typed codebase using TypeScript
+
+🐳 Dockerized for easy deployment
